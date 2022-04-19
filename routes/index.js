@@ -1,7 +1,6 @@
 const express = require('express');
-
-const api = require('./api');
 const app = express();
+const api = require('./api');
 
 app.use('/notes', api);
 
